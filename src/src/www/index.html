@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Material-UI Example</title>
+  <meta name="description" content="Google's material design UI components built with React.">
+
+  <!-- Use minimum-scale=1 to enable GPU rasterization -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+  >
+  <style id="themeColorCss">
+
+
+  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <!--<script src="https://maps.googleapis.com/maps/api/js"></script>-->
+  <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALhcwSqgViPm_DW6cqT5mmO2NPaV5tGfU&callback=initMap"-->
+          <!--type="text/javascript"></script>-->
+  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/superagent/1.2.0/superagent.min.js"></script>-->
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDG1VqzNJXD8bUawC6qUf-_-TEr1PeZY-I"></script>
+</head>
+
+<body dir="auto">
+  <div id="header"></div>
+  <div id="app"></div>
+
+  <!-- This script adds the Roboto font to our project. For more detail go to this site:  http://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,500 -->
+  <script>
+
+
+    var WebFontConfig = {
+      google: { families: [ 'Roboto:400,300,500:latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+  <script src="/app.js"></script>
+</body>
+
+</html>

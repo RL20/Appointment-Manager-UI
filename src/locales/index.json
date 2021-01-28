@@ -1,0 +1,306 @@
+{
+    "en":{
+        "isRTL": false,
+        "loginPage": {
+
+            "loginTitle": "LOGIN",
+            "loginFacebook":"Login with Facebook",
+            "loginGoogle":"Login with  Google",
+            "registerTitle": "REGISTER",
+            "registerUrl":"Register",
+            "signInButton":"Sign-In",
+            "regQuestion":"Not signed yet?",
+            "or": "OR",
+            "email": "E-mail",
+            "password": "Password",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "phone": "Phone",
+            "address": "Address (optinal)"
+        },
+        "homePage": {
+            "appbar": {
+                "title": "Home"
+            }
+        },
+        "navigationDrawer":{
+            "home":"Home",
+            "appointments":"Appointments",
+            "absences":"Absences",
+            "employees":"Employees",
+            "customers":"Customers",
+            "openingHours":"OpeningHours",
+            "pictures":"Pictures",
+            "navigate":"Navigate",
+            "contactUs":"ContactUs",
+            "settings":"Settings",
+            "about":"About"
+        },
+        "appointmentsPage":{
+            "appbar":{"title":"Appointments"},
+            "listTitle":{
+                "appointments": "Appointments",
+                "byCustomer": "By Customer",
+                "byEmployee": "By Employee",
+                "history": "History",
+                "todaysAppointments": "Today's Appointments"
+            },
+            "listIsEmpty":"Nothing to show...",
+            "history":{
+                "Results":"Results ",
+                "time":"Time",
+                "employee":"Employee",
+                "customer":"Customer"
+            },
+            "selectCheckbox":"Select items"
+        },
+        "setAppointmentPage":{
+            "appbar":{"title":"New appointment"},
+            "h2Title":"Closest Available Hours",
+            "selectEmployeeButtonAll":"Employees: All",
+            "selectEmployeeButton":"Employee: "
+        },
+        "absencesPage":{
+            "appbar":{"title":"Absences"},
+            "listTitle":{
+                "absences": "Absences",
+                "byEmployee": "By Employee"
+
+            }
+        },
+        "emloyeesPage":{
+            "appbar":{"title":"to be change..will create person instead customer and employee"}
+
+        },
+        "openingHoursPage":{
+            "appbar":{"title":"Opening Hours"},
+            "h2Title":"We're Available at This times...",
+            "weekDays": {
+                "SUNDAY":"Sunday",
+                "MONDAY":"Monday",
+                "TUESDAY":"Tuesday",
+                "WEDNESDAY":"Wednesday",
+                "THURSDAY":"Thursday",
+                "FRIDAY":"Friday",
+                "SATURDAY":"Saturday"
+            },
+            "from":"from",
+            "to":"to",
+            "closed":"Closed"
+        },
+        "picturesPage":{
+            "appbar":{"title":"Pictures"},
+            "picsUploadTitle": "Upload picture"
+        },
+
+        "navigatePage":{
+            "appbar":{"title":"Navigate"},
+            "checkboxLabel":"By coordinates",
+            "longitudeTextField":"longitude",
+            "latitudeTextField":"latitude",
+            "longitudeHintText":"e.g. 34.2457683473",
+            "latitudeHintText":"e.g. 32.8374563847",
+            "findButton":"Find",
+            "findMyLocationButton":"Find my location",
+            "navigateButton":"Navigate",
+            "doneButton":"done",
+            "GeoSuggest":{
+                "hintText":"e.g. New York, NY 10118",
+                "title":"Address"
+            }
+        },
+
+
+        "contactUsPage":{
+            "appbar":{"title":"Contacts Us"}
+        },
+        "aboutPage":{
+            "appbar":{"title":"About"}
+        },
+
+        "settingsPage":{
+            "appbar":{"title":"Settings"},
+            "general":{
+                "h2Title":"General",
+                "themeColor":"Theme color",
+                "language" : "Language"
+            },
+            "notifications":{
+                "h2Title":"Notifications"
+            },
+            "account":{
+                "h2Title":"Account"
+            }
+        },
+        "personShowAndEdit":{
+            "name":"Name",
+            "phone":"Phone",
+            "email":"E-mail",
+            "address":"Address"
+        },
+        "personsPage":{
+            "appbar":{"title":{"customer":"Customers", "employee":"Employees"}}
+        },
+        "submit":"Submit",
+        "search":"Search",
+        "cancel":"Cancel",
+        "upload":"Upload",
+        "choose":"Choose",
+        "done":"Done",
+        "all":"All",
+        "ok":"Ok"
+    },
+    "he":{
+        "isRTL": true,
+        "loginPage": {
+
+            "loginTitle": "כניסה",
+            "loginFacebook":"התחבר עם פייסבוק",
+            "loginGoogle":"התחבר עם גוגל",
+            "registerTitle": "הרשמה",
+            "registerUrl":"הירשם",
+            "signInButton":"התחבר",
+            "regQuestion":"לא רשום עדיין?",
+            "or":"או",
+            "email": "דואר אלקטרוני",
+            "password": "סיסמא",
+            "firstName": "שם פרטי",
+            "lastName": "שם משפחה",
+            "phone": "טלפון",
+            "address": "כתובת(אופציונלי)"
+        },
+        "homePage": {
+            "appbar": {
+                "title": "בית"
+            }
+        },
+        "navigationDrawer":{
+            "home":"בית",
+            "appointments":"תורים",
+            "absences":"העדרויות",
+            "employees":"עובדים",
+            "customers":"לקוחות",
+            "openingHours":"שעות פתיחה",
+            "pictures":"תמונות",
+            "navigate":"נווט",
+            "contactUs":"צור קשר",
+            "settings":"הגדרות",
+            "about":"אודות"
+        },
+        "appointmentsPage":{
+            "appbar":{"title":"תורים"},
+            "listTitle":{
+                "appointments": "תורים",
+                "byCustomer": "לפי לקוח",
+                "byEmployee": "לפי עובד",
+                "history": "היסטוריית תורים",
+                "todaysAppointments": "תורים היום הקרוב"
+            },
+            "listIsEmpty":"אין מה להציג...",
+            "history":{
+                "results":" תוצאות ",
+                "time":"זמן",
+                "employee":"עובד",
+                "customer":"לקוח"
+            },
+            "selectCheckbox":"סמן פריטים "
+
+        },
+        "setAppointmentPage":{
+            "appbar":{"title":"צור תור חדש"},
+            "h2Title":"תורים קרובים ביותר",
+            "selectEmployeeButtonAll":"עובדים: הכל",
+            "selectEmployeeButton":"עובד: "
+        },
+        "absencesPage":{
+            "appbar":{"title":"העדרויות"},
+            "listTitle":{
+                "absences": "העדרויות",
+                "byEmployee": "לפי עובד"
+
+            }
+        },
+        "emloyeesPage":{
+            "appbar":{"title":"צריף לשנות לפי אנשים"}
+
+        },
+        "openingHoursPage":{
+            "appbar":{"title":"שעות פתיחה"},
+            "h2Title":"אנחנו זמינים בשעות הבאות ",
+            "weekDays": {
+                "SUNDAY":"ראשון",
+                "MONDAY":"שני",
+                "TUESDAY":"שלישי",
+                "WEDNESDAY":"רביעי",
+                "THURSDAY":"חמישי",
+                "FRIDAY":"שישי",
+                "SATURDAY":"שבת"
+            },
+            "from":"משעה",
+            "to":"עד שעה",
+            "closed":"סגור"
+        },
+        "picturesPage":{
+            "appbar":{"title":"תמונות"},
+            "picsUploadTitle": "טען תמונות"
+        },
+
+        "navigatePage":{
+            "appbar":{"title":"ניווט"},
+            "checkboxLabel":"לפי קורדינטות",
+            "longitudeTextField":"קו אורך",
+            "latitudeTextField":"קו רוחב",
+            "longitudeHintText":"לדוג' 34.2457683473",
+            "latitudeHintText":"לדוג' 32.8374563847",
+            "findButton":"חפש",
+            "findMyLocationButton":"מצא את המיקום שלי",
+            "navigateButton":"ניווט",
+            "doneButton":"בצע",
+            "GeoSuggest":{
+                "hintText":"לדוג' אלנבי 10,תל אביב,ישראל",
+                "title":"כתובת"
+            }
+        },
+
+
+        "contactUsPage":{
+            "appbar":{"title":"צור קשר"}
+        },
+        "aboutPage":{
+            "appbar":{"title":"אודות"}
+        },
+
+        "settingsPage":{
+            "appbar":{"title":"הגדרות"},
+            "general":{
+                "h2Title":"כללי",
+                "themeColor":"ערכת נושא",
+                "language" : "שפה"
+            },
+            "notifications":{
+                "h2Title":"התראות"
+            },
+            "account":{
+                "h2Title":"חשבון"
+            }
+        },
+        "personShowAndEdit":{
+            "name":"שם",
+            "phone":"טלפון",
+            "email":"דואר אלקטרוני",
+            "address":"כתובת"
+        },
+        "personsPage":{
+            "appbar":{"title":{"customer":"לקוחות", "employee":"עובדים"}}
+        },
+        "submit":"אישור",
+        "search":"חפש",
+        "cancel":"בטל",
+        "upload":"העלה קובץ",
+        "choose":"בחר",
+        "done":"בצע",
+        "all":"הכל",
+        "ok":"אישור"
+    }
+
+}

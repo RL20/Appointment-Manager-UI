@@ -1,0 +1,54 @@
+/*html {*/
+  /*font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+/*body {*/
+  /*overflow-y: auto;*/
+  /*margin: 0px;*/
+  /*font-size: 13px;*/
+  /*line-height: 20px;*/
+/*}*/
+
+html
+,body{
+  overflow-y: auto;
+  margin: 0px;
+  font-size: 13px;
+  line-height: 20px;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  /*table, tbody, tfoot, thead, tr, th, td*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  /*font-family: inherit;*/
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  background-color: red !important;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+  transition-delay: 5000s;
+}
+
+.footerCaption_2r5qf{
+  font-size: 50px;
+}
+
+
+@-webkit-keyframes slide-down {
+  0% { opacity: 0; -webkit-transform: translateY(-100%); }
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@-moz-keyframes slide-down {
+  0% { opacity: 0; -moz-transform: translateY(-100%); }
+  100% { opacity: 1; -moz-transform: translateY(0); }
+}
